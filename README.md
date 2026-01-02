@@ -6,7 +6,7 @@ Computer vision pipeline for swimming action recognition using YOLO pose estimat
 This project classifies swimming videos into **Frontstroke (Freestyle/Crawl)** vs **Non-Frontstroke**.
 
 Pipeline:
-1. Load videos from `./vids/`
+1. Use your own dataset to test this model and set the filepath as vids for your dataset
 2. Run **YOLO pose** on frames to extract 17 keypoints per person
 3. Track the correct swimmer using an optional CSV point (centroid matching) and fallback tracking
 4. Convert keypoints → biomechanics-inspired features + velocities
