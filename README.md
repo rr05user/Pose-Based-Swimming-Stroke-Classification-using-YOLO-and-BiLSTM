@@ -19,6 +19,7 @@ Pipeline:
 (See paths in code.)
 
 ## Repo Structure.
+```text
 ├── frontstroke_with_centroid.py
 ├── frontstroke_lstm_model.keras
 ├── csvPoints.csv
@@ -26,25 +27,25 @@ Pipeline:
 ├── README.md
 └── LICENSE
 
-📄 File Overview
-
-frontstroke_with_centroid.py
+```
+### frontstroke_with_centroid.py
 Main training pipeline. Extracts pose keypoints using YOLO, performs swimmer tracking, engineers temporal features, and trains a BiLSTM-based classifier.
 
-frontstroke_lstm_model.keras
-Pretrained BiLSTM model for inference and architecture reference (trained on a private dataset).
+### frontstroke_lstm_model.keras
+Pretrained BiLSTM model used for inference and as an architecture reference (trained on a private dataset).
 
-csvPoints.csv
+### csvPoints.csv
 Optional centroid reference file used to stabilize swimmer tracking in multi-person scenes.
 
-Requirements
+### Requirements
 Python dependencies required to run the pipeline.
 
-README.md
+### README.md
 Project overview, methodology, and usage instructions.
 
-LICENSE
+### LICENSE
 MIT license for open-source distribution.
+
 
 
 
