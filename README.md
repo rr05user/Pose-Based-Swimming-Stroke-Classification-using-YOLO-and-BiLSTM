@@ -19,5 +19,13 @@ Pipeline:
 (See paths in code.)
 
 ## Repo Structure
+.
+├── frontstroke_with_centroid.py
+├── frontstroke_lstm_model.keras
+├── csvPoints.csv
+├── Requirements
+├── README.md
+├── LICENSE
+
 
 
